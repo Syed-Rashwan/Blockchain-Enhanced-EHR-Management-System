@@ -1,0 +1,15 @@
+EHRBlockchain/
+├── contracts/
+│   └── EHR.sol                  # Smart contract for managing medical records
+├── migrations/
+│   └── 2_deploy_contracts.js     # Migration file to deploy the smart contract
+├── backend/
+│   ├── server.js                 # Express server for handling API requests
+│   └── package.json              # Backend dependencies and scripts
+├── frontend/
+│   ├── src/
+│   │   ├── App.js                # Main React component
+│   │   ├── RecordForm.js         # Component for adding medical records
+│   │   └── index.js              # Entry point for React application
+│   └── package.json              # Frontend dependencies and scripts
+└── truffle-config.js             # Truffle configuration file
