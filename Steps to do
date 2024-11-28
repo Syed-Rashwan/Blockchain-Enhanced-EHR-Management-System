@@ -1,8 +1,0 @@
-Summary of Step 3 Tasks
-System Components: Defined frontend, backend, and blockchain layers.
-Blockchain Platform: Chose Ethereum and set up Truffle and Ganache.
-Data Structure: Designed a JSON structure for EHR data.
-Smart Contract: Developed a smart contract for managing medical records.
-Backend Implementation: Created an Express server to handle API requests.
-Frontend Implementation: Built a React application to interact with the backend.
-This concludes Step 3 of your project. You can now proceed to the next steps, which involve implementing security measures, testing, and deployment. If you need further assistance with those steps, feel free to ask!
