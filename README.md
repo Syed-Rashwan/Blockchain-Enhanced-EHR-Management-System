@@ -85,39 +85,26 @@ This structure provides a foundational setup for a Blockchain Enhanced EHR Manag
    cd EHR-Management-System
 
 2. **Setup the backend:**
-```bash
+   ```bash
 cd backend
 pip install -r requirements.txt
-```
+
 3. **Setup the frontend:**
 
-```bash
+   ```bash
 
 cd frontend
 npm install
-```
+
 Deploy the smart contracts: Navigate to the blockchain/scripts directory and run the deployment scripts as needed.
 
 4. **Run the applications:**
 
 - **Start the backend server:**
-```bash
+   ```bash
 python app.py
-```
+
 - **Start the frontend application:**
-```bash
+   ```bash
 npm run serve
-```
 
-### Usage
-
-Access the frontend application through the provided local server URL.
-
-Interact with the EHR management features, utilizing the blockchain for secure data management.
-
-
-### Contributing
-Feel free to contribute to this project by submitting issues or pull requests.
-
-### License
-This project is licensed under the MIT License - see the LICENSE file for details.
