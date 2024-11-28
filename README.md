@@ -29,8 +29,6 @@ View all records displayed below the form.
 
 Write better and precise usage.
 
-This structure provides a foundational setup for a Blockchain Enhanced EHR Management System. You can expand upon this by adding features such as user authentication, more detailed record management, and enhanced security measures.
-
 ## Project Structure
    ```
 📂 EHR-Management-System/
