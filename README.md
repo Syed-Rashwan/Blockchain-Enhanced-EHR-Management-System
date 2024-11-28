@@ -29,4 +29,23 @@ View all records displayed below the form.
 This structure provides a foundational setup for a Blockchain Enhanced EHR Management System. You can expand upon this by adding features such as user authentication, more detailed record management, and enhanced security measures.
 
 ### Project Structure
-
+EHR-Management-System/
+│
+├── blockchain/
+│   ├── contracts/
+│   ├── network/
+│   └── scripts/
+│
+├── backend/
+│   ├── app.py
+│   ├── requirements.txt
+│   └── models.py
+│
+└── frontend/
+    ├── src/
+    │   ├── App.vue
+    │   ├── main.js
+    │   └── components/
+    ├── package.json
+    └── vue.config.js
+---------------------------------------------------------------------------------------------------------------
