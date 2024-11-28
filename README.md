@@ -19,12 +19,16 @@ This project is a simple implementation of a Blockchain Enhanced Electronic Heal
 
 4. Open frontend/index.html in a web browser to access the application.
 
-Usage:
+## Usage:
 
 Add patient records by filling out the form and clicking "Add Record".
 
 View all records displayed below the form.
 
 
-This structure provides a foundational setup for a Blockchain Enhanced EHR Management System. You can expand upon this by adding features such as user authentication, more detailed record management, and enhanced security measures. ### Project Structure
+### This structure provides a foundational setup for a Blockchain Enhanced EHR Management System. You can expand upon this by adding features such as user authentication, more detailed record management, and enhanced security measures.
+
+### Project Structure
+```
 blockchain-ehr-management-system/ │ ├── backend/ │ ├── app.py │ ├── requirements.txt │ └── blockchain/ │ ├── smart_contract.sol │ └── deploy.py │ ├── frontend/ │ ├── index.html │ ├── style.css │ └── app.js │ └── README.md
+``` 
