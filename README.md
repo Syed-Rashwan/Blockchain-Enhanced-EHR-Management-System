@@ -2,10 +2,12 @@
 
 ## Overview
 This project is a simple implementation of a Blockchain Enhanced Electronic Health Record (EHR) Management System using Ethereum smart contracts and a Flask backend.
+Write a good overview.
 
 ## Project Structure
 - **backend/**: Contains the backend code including smart contracts and Flask app.
 - **frontend/**: Contains the HTML, CSS, and JavaScript files for the user interface.
+- **complete the structure**
 
 ## Setup Instructions
 1. Install the required packages:
@@ -25,6 +27,7 @@ Add patient records by filling out the form and clicking "Add Record".
 
 View all records displayed below the form.
 
+Write better and precise usage.
 
 This structure provides a foundational setup for a Blockchain Enhanced EHR Management System. You can expand upon this by adding features such as user authentication, more detailed record management, and enhanced security measures.
 
@@ -106,3 +109,4 @@ Deploy the smart contracts: Navigate to the blockchain/scripts directory and run
    ```bash
   npm run serve
 
+**Need more work. You can do better** 
