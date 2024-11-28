@@ -29,7 +29,7 @@ View all records displayed below the form.
 This structure provides a foundational setup for a Blockchain Enhanced EHR Management System. You can expand upon this by adding features such as user authentication, more detailed record management, and enhanced security measures.
 
 ## Project Structure
-```
+   ```
 📂 EHR-Management-System/
 ├── 📁 blockchain/          # Blockchain-related files and directories
 │   ├── 📁 contracts/       # Smart contracts
@@ -41,11 +41,11 @@ This structure provides a foundational setup for a Blockchain Enhanced EHR Manag
 │   └── 📄 models.py        # Database models
 ├── 📁 frontend/            # Frontend application
 │   ├── 📁 src/             # Source files for the frontend
-│   │   ├── 📄 App.js       # Main app file     
+│   │   ├── 📄 App.js       # Main app file
 │   │   └── 📁 components/  # Reusable components
 ├── 📄 package.json         # Node.js dependencies and scripts
 └── 📄 config.js            # configuration file
-```
+   ```
 
 
 ## Components
@@ -62,13 +62,11 @@ This structure provides a foundational setup for a Blockchain Enhanced EHR Manag
 
 ### Frontend
 - **src/**: Contains the source code for the frontend application built with Vue.js.
-  - **App.vue**: The main Vue.js component that serves as the entry point for the application.
   - **main.js**: The entry point for initializing the Vue.js application.
   - **components/**: A directory for reusable Vue.js components that can be used throughout the application.
 
 ### Configuration Files
 - **package.json**: Contains the Node.js dependencies and scripts for managing the frontend application.
-- **vue.config.js**: Configuration settings for the Vue.js application.
 
 ## Getting Started
 
@@ -81,20 +79,20 @@ This structure provides a foundational setup for a Blockchain Enhanced EHR Manag
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/EHR-Management-System.git
-   cd EHR-Management-System
+   git clone https://github.com/Syed-Rashwan/Blockchain-Enhanced-EHR-Management-System.git
+   cd Blockchain-Enhanced-EHR-Management-System
 
 2. **Setup the backend:**
    ```bash
-cd backend
-pip install -r requirements.txt
+   cd backend
+   pip install -r requirements.txt
 
 3. **Setup the frontend:**
 
    ```bash
 
-cd frontend
-npm install
+   cd frontend
+   npm install
 
 Deploy the smart contracts: Navigate to the blockchain/scripts directory and run the deployment scripts as needed.
 
@@ -102,9 +100,9 @@ Deploy the smart contracts: Navigate to the blockchain/scripts directory and run
 
 - **Start the backend server:**
    ```bash
-python app.py
+  python app.py
 
 - **Start the frontend application:**
    ```bash
-npm run serve
+  npm run serve
 
