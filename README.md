@@ -28,7 +28,24 @@ View all records displayed below the form.
 
 This structure provides a foundational setup for a Blockchain Enhanced EHR Management System. You can expand upon this by adding features such as user authentication, more detailed record management, and enhanced security measures.
 
-### Project Structure
+## Project Structure
+```
+📂 EHR-Management-System/
+├── 📁 blockchain/          # Blockchain-related files and directories
+│   ├── 📁 contracts/       # Smart contracts
+│   ├── 📁 network/         # Blockchain network configurations
+│   └── 📁 scripts/         # Scripts for deploying/interacting with blockchain
+├── 📁 backend/             # Backend files
+│   ├── 📄 app.py           # Main backend application file
+│   ├── 📄 requirements.txt # Python dependencies for the backend
+│   └── 📄 models.py        # Database models
+├── 📁 frontend/            # Frontend application
+│   ├── 📁 src/             # Source files for the frontend
+│   │   ├── 📄 App.js       # Main app file     
+│   │   └── 📁 components/  # Reusable components
+├── 📄 package.json         # Node.js dependencies and scripts
+└── 📄 config.js            # configuration file
+```
 
 
 ## Components
