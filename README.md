@@ -29,23 +29,5 @@ View all records displayed below the form.
 This structure provides a foundational setup for a Blockchain Enhanced EHR Management System. You can expand upon this by adding features such as user authentication, more detailed record management, and enhanced security measures.
 
 ### Project Structure
-EHR-Management-System/
-│
-├── blockchain/
-│   ├── contracts/
-│   ├── network/
-│   └── scripts/
-│
-├── backend/
-│   ├── app.py
-│   ├── requirements.txt
-│   └── models.py
-│
-└── frontend/
-    ├── src/
-    │   ├── App.vue
-    │   ├── main.js
-    │   └── components/
-    ├── package.json
-    └── vue.config.js
----------------------------------------------------------------------------------------------------------------
+
+📂 EHR-Management-System/ ├── 📁 blockchain/ # Blockchain-related files and directories │ ├── 📁 contracts/ # Smart contracts │ ├── 📁 network/ # Blockchain network configurations │ └── 📁 scripts/ # Scripts for deploying/interacting with blockchain ├── 📁 backend/ # Backend files │ ├── 📄 app.py # Main backend application file │ ├── 📄 requirements.txt # Python dependencies for the backend │ └── 📄 models.py # Database models ├── 📁 frontend/ # Frontend application │ ├── 📁 src/ # Source files for the frontend │ │ ├── 📄 App.vue # Main Vue.js app file │ │ ├── 📄 main.js # Entry point for the frontend application │ │ └── 📁 components/ # Reusable Vue.js components ├── 📄 package.json # Node.js dependencies and scripts └── 📄 vue.config.js # Vue.js configuration file
