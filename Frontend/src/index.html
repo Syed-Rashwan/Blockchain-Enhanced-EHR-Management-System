@@ -3,17 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
     <title>Blockchain EHR Management</title>
 </head>
 <body>
-    <h1>Blockchain Enhanced EHR Management System</h1>
-    <form id="recordForm">
-        <input type="text" id="patientName" placeholder="Patient Name" required />
-        <input type="text" id="dataHash" placeholder="Data Hash" required />
-        <button type="submit">Add Record</button>
-    </form>
-    <div id="records"></div>
-    <script src="app.js"></script>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Blockchain Enhanced EHR Management System</h1>
+        
+        <div id="authContainer" class="card p-4 shadow-sm">
+            <h2 class="text-center">User  Authentication</h2>
+            <div id="authMessage" class="alert alert-danger" style="display: none;"></div>
+            <input type="text" id="username" class="form-control mb-3" placeholder="Username" required />
+            <input type="password" id="password" class="form-control mb-3" placeholder="Password" required />
+            <button id="loginButton" class="btn btn-primary btn-block">Login</button>
+            <button id="registerButton" class="btn btn-secondary btn-block mt-2">Register</button>
+        </div>
+        
+        <div id="recordContainer" class="card p-4 mt-4 shadow-sm" style="display: none;">
+            <form id="recordForm">
+                <input type="text" id="patientName" class="form-control mb-3" placeholder="Patient Name" required />
+                <input type="text" id="dataHash" class="form-control mb-3" placeholder="Data Hash" required />
+                <button type="submit" class="btn btn-success btn-block">Add Record</button>
+            </form>
+            <input type="text" id="search" class="form-control mt-3" placeholder="Search Records" />
+            <div id="records" class="mt-3"></div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="auth.js"></script>
+    <script src="records.js"></script>
 </body>
 </html>
