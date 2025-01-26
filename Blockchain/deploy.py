@@ -6,7 +6,7 @@ w3 = Web3(Web3.HTTPProvider('http://127.0.0.1:8545'))
 
 # Compile the smart contract
 contract_source_code = '''
-<INSERT_SMART_CONTRACT_CODE_HERE>
+<SMART_CONTRACT_CODE_HERE>
 '''
 compiled_sol = compile_source(contract_source_code)
 contract_id, contract_interface = compiled_sol.popitem()
